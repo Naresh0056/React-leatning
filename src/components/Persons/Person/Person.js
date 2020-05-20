@@ -1,6 +1,7 @@
 import React from "react";
 import "./Person.css";
-const person = (props) => {
+const Person = (props) => {
+  console.log("Person  js rendering .................");
   return (
     <div className="Person">
       <p onClick={props.click}>
@@ -11,4 +12,4 @@ const person = (props) => {
     </div>
   );
 };
-export default person;
+export default Person;
